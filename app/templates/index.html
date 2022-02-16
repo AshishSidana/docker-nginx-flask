@@ -1,19 +1,97 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     {% block head %}
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
-        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
-        <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
+    <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
     {% endblock %}
 
 </head>
+
 <body>
-My name is: {{ name }}
-<br/> <br/><br/>
-This is my sample App
+    <div id="main_menu">
+        <h1> <span class="cursive2x">A</span>shish's <span class="cursive2x">H</span>omepage </h1>
+    </div>
+
+    <div id="main_content">
+
+        <div>
+            <img src="{{ url_for('static', filename='images/sample.jpeg') }}"
+                style="float: left; width:200px; height:100px;" />
+            <p style="padding-top: 20px;">
+                <span class="firstFont size150">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet nec
+                ullamcorper sit amet. Sed blandit libero volutpat sed cras ornare arcu dui. Duis convallis convallis
+                tellus
+                id interdum velit. Sed arcu non odio euismod lacinia at quis risus sed. Eget nullam non nisi est. Donec
+                adipiscing tristique risus nec feugiat. Eu volutpat odio facilisis mauris sit. Vel elit scelerisque
+                mauris
+                pellentesque pulvinar pellentesque habitant morbi. Suscipit tellus mauris a diam maecenas sed.
+                Odio pellentesque diam volutpat commodo. Pulvinar neque laoreet suspendisse interdum. Feugiat pretium
+                nibh ipsum consequat nisl vel. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Interdum
+                velit euismod in pellentesque massa placerat duis ultricies. Morbi tristique senectus et netus et
+                malesuada fames ac. Nulla at volutpat diam ut venenatis tellus in. Lectus proin nibh nisl condimentum
+                id. Tellus mauris a diam maecenas sed enim ut sem. Amet porttitor eget dolor morbi. Pharetra convallis
+                posuere morbi leo urna molestie at. Mattis aliquam faucibus purus in. Augue eget arcu dictum varius duis
+                at consectetur lorem. Pharetra magna ac placerat vestibulum lectus mauris ultrices. Nec sagittis aliquam
+                malesuada bibendum arcu. Nunc aliquet bibendum enim facilisis gravida neque convallis. Morbi tincidunt
+                augue interdum velit euismod in pellentesque massa.
+            </p>
+        </div>
+        <div style="clear: both;"></div>
+
+
+        <p>
+            Velit ut tortor pretium viverra suspendisse. Fusce id velit ut tortor pretium. Diam vel quam elementum
+            pulvinar etiam non quam lacus. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Proin
+            sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Pretium lectus quam id leo. Tellus
+            pellentesque eu tincidunt tortor aliquam. Vitae justo eget magna fermentum iaculis eu non diam. Sociis
+            natoque penatibus et magnis dis parturient. Sit amet facilisis magna etiam tempor orci eu lobortis. Neque
+            vitae tempus quam pellentesque nec nam. Amet mattis vulputate enim nulla. Quis ipsum suspendisse ultrices
+            gravida dictum fusce. Nec feugiat in fermentum posuere urna nec. Amet purus gravida quis blandit turpis. Sed
+            nisi lacus sed viverra tellus. Ac odio tempor orci dapibus.
+        </p>
+
+
+        <p>
+            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Malesuada nunc vel risus
+            commodo viverra maecenas accumsan lacus vel. Morbi enim nunc faucibus a pellentesque sit amet porttitor.
+            Fermentum et sollicitudin ac orci. Et tortor at risus viverra adipiscing at in tellus integer. Pellentesque
+            habitant morbi tristique senectus et netus et. Vitae congue eu consequat ac felis donec et odio
+            pellentesque. Purus in mollis nunc sed. Vestibulum lectus mauris ultrices eros in cursus turpis massa
+            tincidunt. Quam adipiscing vitae proin sagittis nisl rhoncus mattis. Mi tempus imperdiet nulla malesuada
+            pellentesque elit eget gravida. Aliquet nibh praesent tristique magna sit amet purus. Quam elementum
+            pulvinar etiam non quam lacus suspendisse faucibus. Ut morbi tincidunt augue interdum velit. Erat nam at
+            lectus urna duis convallis convallis tellus.
+        </p>
+
+
+        <p>
+            Fusce ut placerat orci nulla pellentesque dignissim. Id donec ultrices tincidunt arcu. Ullamcorper malesuada
+            proin libero nunc consequat interdum. Faucibus in ornare quam viverra orci sagittis eu volutpat. Habitant
+            morbi tristique senectus et netus et malesuada fames ac. Magna fringilla urna porttitor rhoncus dolor purus
+            non. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Odio tempor orci dapibus
+            ultrices in iaculis nunc sed augue. Sit amet consectetur adipiscing elit. At in tellus integer feugiat
+            scelerisque varius morbi. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Accumsan in nisl nisi
+            scelerisque.
+        </p>
+
+
+        <p>
+            Ut sem nulla pharetra diam sit. Justo donec enim diam vulputate ut. Diam in arcu cursus euismod. Nisi lacus
+            sed viverra tellus in hac habitasse platea. Ipsum nunc aliquet bibendum enim facilisis. Diam vel quam
+            elementum pulvinar etiam non quam lacus. Felis imperdiet proin fermentum leo. Ut sem nulla pharetra diam sit
+            amet nisl. Augue ut lectus arcu bibendum. Libero id faucibus nisl tincidunt eget. Malesuada fames ac turpis
+            egestas. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Lectus vestibulum mattis
+            ullamcorper velit sed ullamcorper morbi tincidunt ornare. Duis ut diam quam nulla porttitor massa id neque
+            aliquam.
+        </p>
+    </div>
 </body>
+
 </html>
